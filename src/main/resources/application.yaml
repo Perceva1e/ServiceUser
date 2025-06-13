@@ -1,1 +1,8 @@
-spring.application.name=UserService server.port=8082 servicedb.api.url=http://localhost:8081/api
+spring:
+  application:
+    name: UserService
+server:
+  port: 8082
+servicedb:
+  api:
+    url: http://localhost:8081/api
